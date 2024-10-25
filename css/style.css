@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* Header And Main Saction Start */
 header {
   height:110px;
   width: 710px;
@@ -7,11 +8,15 @@ main{
   width: 800px;
   display: flex;
 }
+/* Header And Main Saction Ends */
+/* Body Section Start */
 body{
   background-image: url(../images/back.gif);
   background-repeat: repeat-y;
   background-color: #ffffcc;
 }
+/* Body Section Ends */
+/* H1 and H2 Section Start */
 h1{
   font-size: 58px;
   text-align: right;
@@ -22,6 +27,8 @@ h2{
   border-style: solid;
   color: #003399;
 }
+/* H1 And H2 Section Ends */
+/* Ul and nav and article Section Start */
 ul{
   line-height: 2em;
   background-color: #ccff99;
@@ -34,7 +41,8 @@ article{
   margin-left: 1px;
   width:560px;
 }
-
+/*  Ul and nav and article Section Ends */
+/* Table section Start */
 table{
   width: 100%;
   border-collapse: collapse;
@@ -44,6 +52,9 @@ td,th{
   padding: 8px;
   text-align: center;
 }
+/* Table Section Ends */
+/* Footer Section Start */
 footer{
   width: 640px;
 }
+/* Footer Section Ends */
